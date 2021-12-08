@@ -1,12 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+<?php
+get_header();
+?>
 <?php
 
 if ( have_posts() ) :
@@ -16,7 +10,7 @@ if ( have_posts() ) :
 		<?php the_content() ?>
         <a href="<?php the_permalink()?>">Lees meer</a>
         <hr>
-        
+
 	<?php endwhile;
 
 else :
@@ -25,5 +19,6 @@ else :
 endif;
 
 ?>
-    </body>
-</html>
+<?php
+get_footer();
+?>
