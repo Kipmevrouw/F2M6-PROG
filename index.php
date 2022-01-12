@@ -8,7 +8,7 @@ if ( have_posts() ) :
 
         <h2><?php the_title() ?></h2>
 		<?php the_content() ?>
-        <a href="<?php the_permalink()?>">Lees meer</a>
+        <a href="<?php the_permalink()?>" class="btn btn-blue">Lees meer</a>
         <hr>
 
 	<?php endwhile;

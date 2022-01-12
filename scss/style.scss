@@ -1,5 +1,9 @@
 @import "variables";
+@import "mixins";
 @import "navigation";
+@import "buttons";
+@import "typography";
+
 
     body{
         color: $text-color;
