@@ -1,5 +1,21 @@
-body{
-    font-family: 'Open Sans', sans-serif;
-    background-color: purple;
-    color: white;
+#main-menu {
+  display: block;
+  background-color: lightblue;
+  list-style: none;
+  display: flex;
 }
+#main-menu li {
+  padding: 15px;
+}
+#main-menu li a, #main-menu li a:hover {
+  color: #000000;
+  text-decoration: none;
+}
+
+body {
+  color: #000000;
+  background-color: #ec9292;
+  font-size: 16px;
+}
+
+/*# sourceMappingURL=style.css.map */

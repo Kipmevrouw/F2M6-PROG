@@ -13,9 +13,18 @@
 </head>
 
 <body <?php body_class(); ?>>
-
+<div class="container">
+<?php
+    $args = [
+        'theme_location' => 'main-menu',
+        'container_class' => 'main-menu',
+        'menu_id' => 'main-menu',
+        'container' => 'nav'
+    ];
+    wp_nav_menu($args)
+    ?>
+</div>
 <header class="site-header">
     <h1><?php bloginfo( 'name' ); ?></h1>
     <h4><?php bloginfo( 'description' ); ?></h4>
 </header>
-<div class="container">

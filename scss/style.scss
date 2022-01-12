@@ -1,0 +1,9 @@
+@import "variables";
+@import "navigation";
+
+    body{
+        color: $text-color;
+        background-color: $bg-color;
+        font-size: $text-size;
+    }
+    
