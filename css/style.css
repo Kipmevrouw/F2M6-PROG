@@ -100,6 +100,29 @@ h3 {
   color: lavender;
 }
 
+header {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+header #site-info {
+  align-items: center;
+}
+header #site-info img {
+  width: 1000px;
+  height: auto;
+}
+header #site-info div {
+  padding: 5px;
+}
+header #site-info h1 {
+  text-align: center;
+}
+header #site-info h2 {
+  font-size: 15px;
+  text-align: center;
+}
+
 body {
   color: #000000;
   background-color: #ec9292;

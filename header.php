@@ -15,9 +15,13 @@
 <body <?php body_class(); ?>>
 <div class="container">
     <header>
-        <h1>
-            
-        </h1>
+        <div id="site-info">
+            <img src="<?php echo get_template_directory_uri()?>/img/panda.jpg"/>
+            <div>
+                <h1><?php echo get_bloginfo('name')?></h1>
+                <h2><?php echo get_bloginfo('description')?></h2>
+            </div>
+        </div>
     </header>
 <?php
     $args = [
