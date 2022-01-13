@@ -24,7 +24,8 @@
     wp_nav_menu($args)
     ?>
 </div>
-<header class="site-header">
+<!-- <header class="site-header">
     <h1><?php bloginfo( 'name' ); ?></h1>
     <h4><?php bloginfo( 'description' ); ?></h4>
-</header>
+</header> -->
+<div class="container">

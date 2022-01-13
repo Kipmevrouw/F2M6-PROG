@@ -9,5 +9,15 @@
         color: $text-color;
         background-color: $bg-color;
         font-size: $text-size;
+        display: block;
     }
-    
+    .home{
+        background-image: url(https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABZIBF122GeT-sZ3bOkUxbfcthfQsvNkd6Q3nkiE7bJyLoMHXy8k8T2Ac4zbzVAPsADOwdofAazFaEHjmhPrj--ysWmtA.jpg?r=109);
+    }
+    #page{
+        background-color: lightgoldenrodyellow;
+    }
+    div{
+        background-color: lightgrey;
+        padding: 5px;
+    }
