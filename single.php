@@ -5,12 +5,14 @@ get_header();
 
 if ( have_posts() ) :
 	while ( have_posts() ) : the_post(); ?>
-	<article>
-        <h2><?php the_title() ?></h2>
+        <h1><?php the_title() ?></h1>
+		<!-- laat het catorgorie zien -->
+		<!-- <p><?php the_category()?></p> -->
 		<!-- Laat de datum zien -->
 		<!-- <em><?php the_date()?></em> -->
-        <a href="<?php the_permalink()?>" class="btn btn-blue">Lees meer</a>
-	</article>
+		<!-- Laat de maker zien -->
+		<!-- <h2><?php the_author()?></h2> -->
+		<?php the_content() ?>
 
 	<?php endwhile;
 

@@ -84,6 +84,22 @@ h3 {
   font-size: 18px;
 }
 
+.single-post {
+  background-color: lightskyblue;
+}
+.single-post h1 {
+  text-decoration: underline;
+}
+
+.blog article {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: lightsalmon;
+}
+.blog article h2 {
+  color: lavender;
+}
+
 body {
   color: #000000;
   background-color: #ec9292;
